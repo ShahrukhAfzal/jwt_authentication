@@ -77,3 +77,7 @@ def upload_image():
 
     return render_template("upload_image.html")
 
+
+@app.route("/check-throttle-limit", methods=["GET"])
+def check_throttle_limit():
+    return {'throttle_limit': DEFAULT_THROTTLE_LIMITS[0]}
