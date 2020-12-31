@@ -10,7 +10,7 @@ For virtual environment [click here](https://packaging.python.org/guides/install
 ## Project setup
 ## install requirements 
 ```python
-$ pip install - requirements.txt
+$ pip install -r requirements.txt
 ```
 ## run application
 ```
